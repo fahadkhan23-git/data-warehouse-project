@@ -39,12 +39,16 @@ Version Control: Git & GitHub
 📂 Project Structure
 
 ├── datasets/           # Raw ERP and CRM CSV files
+
 ├── docs/               # Architecture, ERDs, and Data Dictionary
+
 ├── scripts/
 │   ├── bronze/         # DDL: Creating raw staging tables
 │   ├── silver/         # DML: Cleansing and standardization logic
 │   └── gold/           # DML: Final Fact & Dimension modeling
+
 ├── tests/              # SQL scripts for data validation
+
 └── README.md
 
 ---------------------------------------------------------------------------------------------
